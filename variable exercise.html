@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Variables Exercise</title>
+  </head>
+
+  <body>
+    
+    <button onclick="
+    cartQuantity += 4;
+      console.log(`cart quantity: ${cartQuantity}`)">+4</button>
+
+    <button onclick="
+    cartQuantity += 5;
+    console.log(`cart quantity: ${cartQuantity}`)">+5</button>
+
+    <button onclick="
+    cartQuantity --;
+    console.log(`cart quantity: ${cartQuantity}`)">Remove from Cart</button>
+
+    <button onclick="
+    cartQuantity -= 2;
+    console.log(`cartQuantity: ${cartQuantity}`)">-2</button>
+
+    <button onclick="
+    cartQuantity -= 3;
+    console.log(`cartQuantity: ${cartQuantity}`)">-3</button>
+
+    <script>
+      const name = 'Mercy Fominyen'
+      console.log(`My name is: ${name}`);
+
+      let cost = 5 + (2 * 3) + 9;
+      console.log(`cost of food: $${cost}`);
+      
+      const tax = (cost * 0.1)
+      console.log(`tax (10%): $${tax}`);
+
+      const totalCost = cost + tax
+      console.log(`Toatal cost: $${totalCost}`);
+
+      let cartQuantity = 0;
+    </script>
+     
+  </body>
+</html>
